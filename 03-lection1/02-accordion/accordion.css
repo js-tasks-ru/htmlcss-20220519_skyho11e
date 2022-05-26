@@ -9,7 +9,7 @@
 }
 
 .accordion__item {
-  width: 730px;
+  max-width: 730px;
   min-height: 72px;
   box-sizing: border-box;
   border: 1px solid var(--grey-3);
@@ -44,7 +44,6 @@
 .accordion__text {
   color: var(--grey-4);
   margin-bottom: 8px;
-  transition: opacity 1s ease-in-out;
 }
 
 .accordion__item[open] > .accordion__summary:after {
