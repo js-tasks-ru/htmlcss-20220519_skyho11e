@@ -1,12 +1,19 @@
 @import '../fonts/fonts.css';
+<<<<<<< HEAD
 @import './normalize.css';
+=======
+@import './norzalize.css';
+>>>>>>> 5bd82b2e4061d352e9c558bdfc6f582ccb3070dc
 
 :root {
   --white: #ffffff;
   --black: #212429;
   --pink: #f784ad;
   --purple: #7048e8;
+  --purple-2: #5028c6;
   --blue: #374fc7;
+  --blue-1: #4263eb;
+  --blue-2: #2342c0;
   --red: #f03d3e;
   --grey-1: #f8f9fa;
   --grey-2: #dde2e5;
