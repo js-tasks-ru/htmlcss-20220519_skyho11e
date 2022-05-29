@@ -1,7 +1,7 @@
 .skeleton {
   max-width: 579px;
   box-sizing: border-box;
-  border: 1px solid #acb5bd;
+  border: 1px solid var(--grey-3);
   border-radius: 8px;
   padding: 24px 40px 32px 24px;
 }
@@ -15,7 +15,7 @@
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: #dde2e5;
+  background: var(--grey-2);
 }
 
 .skeleton__top,
