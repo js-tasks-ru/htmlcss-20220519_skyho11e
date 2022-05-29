@@ -1,9 +1,5 @@
 @import '../fonts/fonts.css';
-<<<<<<< HEAD
-@import './normalize.css';
-=======
 @import './norzalize.css';
->>>>>>> 5bd82b2e4061d352e9c558bdfc6f582ccb3070dc
 
 :root {
   --white: #ffffff;
