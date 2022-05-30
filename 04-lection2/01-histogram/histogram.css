@@ -1,7 +1,7 @@
 .histogram {
   display: inline-block;
   min-width: 354px;
-  background: #ffffff;
+  background: var(--white);
   border: 1px solid var(--grey-3);
   border-radius: 8px;
   padding: 16px 24px 24px;
@@ -9,7 +9,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  color: #212429;
+  color: var(--black);
 }
 
 .histogram__header {
@@ -43,6 +43,7 @@
 }
 
 .histogram__bar {
-  width: 100%;
+  flex-basis: 9px;
+  flex-grow: 1;
   background: var(--blue-1);
 }
