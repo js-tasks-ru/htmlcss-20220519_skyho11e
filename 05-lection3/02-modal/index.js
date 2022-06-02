@@ -12,6 +12,13 @@
     document.body.overflow = 'hidden';
   });
 
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+      document.body.overflow = 'initial';
+    }
+  })
+
   close.addEventListener('click', () => {
     modal.style.display = 'none';
     document.body.overflow = 'initial';
